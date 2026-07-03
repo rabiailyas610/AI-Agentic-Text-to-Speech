@@ -1,0 +1,13 @@
+@"
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+Cffmpeg/
+history_audio/
+tts_history.json
+temp_*
+*.ogg
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding utf8
